@@ -4,7 +4,7 @@ pipeline {
     environment {
         DOCKER_IMAGE_NAME = "xlexferr02/simple-nodejs"
         DEPLOY_SERVER = "192.168.56.10"
-        DEPLOY_USER = "xlexferr02 "
+        DEPLOY_USER = "xlexferr02"
     }
 
     stages {
